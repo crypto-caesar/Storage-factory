@@ -14,9 +14,6 @@ contract StorageFactory {
     }
     
     function sfStore(uint256 _simpleStorageIndex, uint256 _simpleStorageNumber) public {
-        // Address 
-        // ABI 
-        // SimpleStorage(address(simpleStorageArray[_simpleStorageIndex])).store(_simpleStorageNumber);
         simpleStorageArray[_simpleStorageIndex].store(_simpleStorageNumber);
     }
     
